@@ -6,12 +6,18 @@ const path = require('path');
 require('dotenv').config({ path: '../.env' });
 
 const app = express();
-// const PORT = process.env.PORT || 5500;
-const PORT = 8080;
+const PORT = process.env.PORT || 5500;
 const API_USERNAME = process.env.CCApiUser;
 const API_PASSWORD = process.env.CCApiPW;
 
+// const corsOptions = {
+//     origin: process.env.ALLOWED_ORIGINS || '*', // Replace '*' with the frontend's URL in production
+//     optionsSuccessStatus: 200,
+// };
+
 app.use(cors());
+
+
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, '/client/build')));
