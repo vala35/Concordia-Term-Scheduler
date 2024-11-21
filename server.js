@@ -6,8 +6,8 @@ const path = require('path');
 require('dotenv').config({ path: '../.env' });
 
 const app = express();
-const PORT = process.env.PORT || 5500;
-
+// const PORT = process.env.PORT || 5500;
+const PORT = 8080;
 const API_USERNAME = process.env.CCApiUser;
 const API_PASSWORD = process.env.CCApiPW;
 
