@@ -10,10 +10,19 @@ const PORT = process.env.PORT || 5500;
 const API_USERNAME = process.env.CCApiUser;
 const API_PASSWORD = process.env.CCApiPW;
 
-const corsOptions = {
-    origin: process.env.WEBSITE_CORS_ALLOWED_ORIGINS || "*"
-};
-app.use(cors(corsOptions));
+const allowedOrigin = process.env.WEBSITE_CORS_ALLOWED_ORIGINS || "*";
+
+app.use(cors({
+    origin: (origin, callback) => {
+        if (origin === allowedOrigin || !origin) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    methods: ['GET'], // Only allow GET requests
+}));
+
 
 
 app.use(express.json());
