@@ -23,7 +23,7 @@ app.use(cors({
     methods: ['GET'], // Only allow GET requests
 }));
 
-app.use((req, res, next) => {
+const validateOrigin =() => ((req, res, next) => {
     const origin = req.headers.origin;
 
     // Reject requests with no origin (like direct browser hits)
@@ -34,13 +34,11 @@ app.use((req, res, next) => {
     next();
 });
 
-
-
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, '/client/build')));
 
-app.get('/api/courses/:subject/:termCode', async (req, res) => {
+app.get('/api/courses/:subject/:termCode', validateOrigin() ,async (req, res) => {
     const { subject, termCode } = req.params;
 
     try {
@@ -60,7 +58,7 @@ app.get('/api/courses/:subject/:termCode', async (req, res) => {
     }
 });
 
-app.get('/api/descriptions/:subject/', async (req, res) => {
+app.get('/api/descriptions/:subject/', validateOrigin(),async (req, res) => {
     const { subject} = req.params;
 
     try {
