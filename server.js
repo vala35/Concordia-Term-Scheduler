@@ -10,12 +10,12 @@ const PORT = process.env.PORT || 5500;
 const API_USERNAME = process.env.CCApiUser;
 const API_PASSWORD = process.env.CCApiPW;
 
-// const corsOptions = {
-//     origin: process.env.ALLOWED_ORIGINS || '*', // Replace '*' with the frontend's URL in production
-//     optionsSuccessStatus: 200,
-// };
+const corsOptions = {
+    origin: process.env.WEBSITE_CORS_ALLOWED_ORIGINS || "*",
+    optionsSuccessStatus: 200,
+};
 
-app.use(cors());
+app.use(cors(corsOptions));
 
 
 app.use(express.json());
