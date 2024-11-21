@@ -14,7 +14,7 @@ const API_PASSWORD = process.env.CCApiPW;
 app.use(cors());
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, '../client/build')));
+app.use(express.static(path.join(__dirname, '/client/build')));
 
 app.get('/api/courses/:subject/:termCode', async (req, res) => {
     const { subject, termCode } = req.params;
@@ -57,7 +57,7 @@ app.get('/api/descriptions/:subject/', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+    res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
 });
 
 // app.get("/", (req, res) =>{
