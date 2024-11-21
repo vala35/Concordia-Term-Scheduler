@@ -14,7 +14,6 @@ const corsOptions = {
     origin: process.env.WEBSITE_CORS_ALLOWED_ORIGINS,
     optionsSuccessStatus: 200,
 };
-
 app.use(cors(corsOptions));
 
 
@@ -69,6 +68,13 @@ app.get('/', (req, res) => {
 // app.get("/", (req, res) =>{
 //     res.send("<h1> HELLO</h1>");
 // });
+
+app.get('/api/info', (req, res) => {
+    res.send(
+        "<h1>"+process.env.WEBSITE_CORS_ALLOWED_ORIGINS+"</h1>"+
+        "<h1>"+process.env.WEBSITE_CORS_ALLOWED_ORIGINS+"</h1>"
+    );
+});
 
 app.listen(PORT, () => {
     console.log(`Backend running on http://localhost:${PORT}`);
