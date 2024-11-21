@@ -23,6 +23,17 @@ app.use(cors({
     methods: ['GET'], // Only allow GET requests
 }));
 
+app.use((req, res, next) => {
+    const origin = req.headers.origin;
+
+    // Reject requests with no origin (like direct browser hits)
+    if (!origin || origin !== allowedOrigin) {
+        return res.status(403).json({ message: 'Access forbidden: invalid origin' });
+    }
+
+    next();
+});
+
 
 
 app.use(express.json());
