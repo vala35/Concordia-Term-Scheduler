@@ -11,7 +11,7 @@ const API_USERNAME = process.env.CCApiUser;
 const API_PASSWORD = process.env.CCApiPW;
 
 const corsOptions = {
-    origin: process.env.WEBSITE_CORS_ALLOWED_ORIGINS || "*",
+    origin: process.env.WEBSITE_CORS_ALLOWED_ORIGINS,
     optionsSuccessStatus: 200,
 };
 
