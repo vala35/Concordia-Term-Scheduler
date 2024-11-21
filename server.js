@@ -12,24 +12,14 @@ const API_PASSWORD = process.env.CCApiPW;
 
 const allowedOrigin = process.env.WEBSITE_CORS_ALLOWED_ORIGINS || "*";
 
-app.use(cors({
-    origin: (origin, callback) => {
-        if (origin === allowedOrigin || !origin) {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
-    methods: ['GET'], // Only allow GET requests
-}));
-
 const validateOrigin =() => ((req, res, next) => {
     const origin = req.headers.origin;
 
     // Reject requests with no origin (like direct browser hits)
-    if (!origin || origin !== allowedOrigin) {
-        return res.status(403).json({ message: 'Access forbidden: invalid origin' });
-    }
+    // if (!origin || origin !== allowedOrigin) {
+    //     return res.status(403).json({ message: 'Access forbidden: invalid origin' });
+    // }
+
 
     next();
 });
