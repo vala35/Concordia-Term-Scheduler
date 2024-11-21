@@ -11,7 +11,7 @@ const API_USERNAME = process.env.CCApiUser;
 const API_PASSWORD = process.env.CCApiPW;
 
 const corsOptions = {
-    origin: process.env.WEBSITE_CORS_ALLOWED_ORIGINS
+    origin: process.env.WEBSITE_CORS_ALLOWED_ORIGINS || "*"
 };
 app.use(cors(corsOptions));
 
@@ -64,14 +64,11 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
 });
 
-// app.get("/", (req, res) =>{
-//     res.send("<h1> HELLO</h1>");
-// });
 
 app.get('/api/info', (req, res) => {
     res.send(
-        "<h1>"+process.env.WEBSITE_CORS_ALLOWED_ORIGINS+"</h1>"+
-        "<h1>"+process.env.WEBSITE_CORS_ALLOWED_ORIGINS+"</h1>"
+        "<h1>"+corsOptions.origin+"</h1>"+
+        "<h1>"+corsOptions.origin+"</h1>"
     );
 });
 
