@@ -1,5 +1,5 @@
 Greater filtering functionality          Expected Dec 2024
-Log-in & schedule save                   Expected Jan 2024
-Full schedule building                   Expected Feb 2024
+Log-in & schedule save                   Expected Jan 2025
+Full schedule building                   Expected Feb 2025
 ***************
 Planned updates to the unofficial Concordia Course Scheduler are subject to change or cancellation without notice and do not constitute a binding commitment by the developer.

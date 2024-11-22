@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="refine index data v3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.e8972d14.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.e8972d14.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.e8972d14.js.map" beforeDir="false" />
-    </list>
+    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="refine index data v6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +94,7 @@
       <workItem from="1732157571625" duration="793000" />
       <workItem from="1732209079775" duration="7006000" />
       <workItem from="1732216285895" duration="3139000" />
-      <workItem from="1732220518774" duration="11381000" />
+      <workItem from="1732220518774" duration="11827000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -335,7 +328,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732246790861</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="refine index data v3">
+      <option name="closed" value="true" />
+      <created>1732248006706</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1732248006706</updated>
+    </task>
+    <task id="LOCAL-00031" summary="refine index data v6">
+      <option name="closed" value="true" />
+      <created>1732248304578</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1732248304578</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,6 +376,7 @@
     <MESSAGE value="refine index data" />
     <MESSAGE value="refine index data v2" />
     <MESSAGE value="refine index data v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="refine index data v3" />
+    <MESSAGE value="refine index data v6" />
+    <option name="LAST_COMMIT_MESSAGE" value="refine index data v6" />
   </component>
 </project>
