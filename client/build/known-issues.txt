@@ -1,0 +1,2 @@
+1. Where laboratories are standalone class numbers, they attach to the lectures immediately before them.
+            Expected fix in Dec 2024
