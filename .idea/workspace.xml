@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="refine change list 2">
-      <change afterPath="$PROJECT_DIR$/client/build/static/js/main.3e29ecba.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.bd95ed47.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/static/js/main.3e29ecba.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.bd95ed47.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/static/js/main.3e29ecba.js.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.bd95ed47.js.map" beforeDir="false" />
+    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="clarify unofficiality v2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +96,7 @@
       <workItem from="1732157571625" duration="793000" />
       <workItem from="1732209079775" duration="7006000" />
       <workItem from="1732216285895" duration="3139000" />
-      <workItem from="1732220518774" duration="12173000" />
+      <workItem from="1732220518774" duration="13667000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -367,7 +362,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732248623939</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="clarify unofficiality">
+      <option name="closed" value="true" />
+      <created>1732248720895</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1732248720895</updated>
+    </task>
+    <task id="LOCAL-00035" summary="clarify unofficiality v2">
+      <option name="closed" value="true" />
+      <created>1732249063577</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1732249063577</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +413,8 @@
     <MESSAGE value="refine index data v6" />
     <MESSAGE value="refine change list" />
     <MESSAGE value="refine change list 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="refine change list 2" />
+    <MESSAGE value="clarify unofficiality" />
+    <MESSAGE value="clarify unofficiality v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="clarify unofficiality v2" />
   </component>
 </project>
