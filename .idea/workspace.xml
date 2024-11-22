@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="clarify unofficiality v2">
-      <change beforePath="$PROJECT_DIR$/client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.147967f1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.147967f1.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.147967f1.js.map" beforeDir="false" />
+    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="added known issues list">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,7 @@
       <workItem from="1732209079775" duration="7006000" />
       <workItem from="1732216285895" duration="3139000" />
       <workItem from="1732220518774" duration="13667000" />
-      <workItem from="1732252928534" duration="398000" />
+      <workItem from="1732252928534" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -383,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732249063577</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added known issues list">
+      <option name="closed" value="true" />
+      <created>1732254298797</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1732254298797</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +424,7 @@
     <MESSAGE value="refine change list 2" />
     <MESSAGE value="clarify unofficiality" />
     <MESSAGE value="clarify unofficiality v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="clarify unofficiality v2" />
+    <MESSAGE value="added known issues list" />
+    <option name="LAST_COMMIT_MESSAGE" value="added known issues list" />
   </component>
 </project>
