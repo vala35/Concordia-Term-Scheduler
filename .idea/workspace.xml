@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="added known issues list">
+    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="more stuff to change list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/static/css/main.1098a463.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/static/css/main.1098a463.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/static/js/453.a6a97343.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/static/js/453.a6a97343.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.a5b3a08a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.a5b3a08a.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.a5b3a08a.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +106,8 @@
       <workItem from="1732209079775" duration="7006000" />
       <workItem from="1732216285895" duration="3139000" />
       <workItem from="1732220518774" duration="13667000" />
-      <workItem from="1732252928534" duration="1502000" />
+      <workItem from="1732252928534" duration="2205000" />
+      <workItem from="1732330986284" duration="3364000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -387,7 +397,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732254298797</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fixed disclaimer">
+      <option name="closed" value="true" />
+      <created>1732312054747</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1732312054747</updated>
+    </task>
+    <task id="LOCAL-00038" summary="more stuff to change list">
+      <option name="closed" value="true" />
+      <created>1732331134709</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1732331134709</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +451,8 @@
     <MESSAGE value="clarify unofficiality" />
     <MESSAGE value="clarify unofficiality v2" />
     <MESSAGE value="added known issues list" />
-    <option name="LAST_COMMIT_MESSAGE" value="added known issues list" />
+    <MESSAGE value="fixed disclaimer" />
+    <MESSAGE value="more stuff to change list" />
+    <option name="LAST_COMMIT_MESSAGE" value="more stuff to change list" />
   </component>
 </project>
