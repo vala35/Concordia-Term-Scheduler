@@ -31,7 +31,7 @@ app.use(express.static(path.join(__dirname, '/client/build')));
 
 app.get('/api/courses/:subject/:termCode', validateOrigin() ,async (req, res) => {
     const { subject, termCode } = req.params;
-
+    console.log(req.ip +" requested "+subject+" data for "+termCode);
     try {
         const response = await axios.get(
             `https://opendata.concordia.ca/API/v1/course/scheduleTerm/filter/${subject}/${termCode}`,
