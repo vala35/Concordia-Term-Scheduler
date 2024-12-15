@@ -132,7 +132,7 @@ function App() {
                       <option value={referenceYr + "1"}>{"Summer " + academicYr}</option>
                       <option value={referenceYr + "2"}>{"Fall " + academicYr}</option>
                       <option value={referenceYr + "3"}>{"Fall-Winter " + academicYr}</option>
-                      <option value={referenceYr + "2"}>{"Winter " + (academicYr+1)}</option>
+                      <option value={referenceYr + "4"}>{"Winter " + (academicYr+1)}</option>
                   </select>
               </div>
               <button id="fetchButton" onClick={fetchCourses}>Fetch Courses</button>
