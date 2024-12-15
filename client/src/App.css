@@ -45,8 +45,10 @@
 .mainCourse{
   list-style: none;
   border: solid #912338;
-  width: fit-content;
+  border-right: none;
+  width: 100%;
   min-width: 230px;
+  max-width: 700px;
   padding: 5px;
   margin: -10px;
 
@@ -61,9 +63,18 @@
   padding : 5px;
 }
 
+.mainCourse, .subCourse {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mainCourse:hover, .subCourse:hover {
+  background-color: #efefef;
+  transition: 0.2s ease;
+}
+
 .loader {
-  border: 10px solid #912338; /* Light grey */
-  border-top: 10px solid #004085; /* Blue */
+  border: 10px solid #912338;
+  border-top: 10px solid #004085;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -81,8 +92,56 @@
   cursor: pointer;
   min-width: 80px;
   font-weight: bold;
+  color: #004085;
   margin-top: 15px;
-  border: 1px solid black;
+  border: 2px solid #912338;
   border-radius: 15px;
   padding: 8px;
+}
+
+#fetchButton:hover {
+  background-color: #912338;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.checkbox{
+  margin-left: 0;
+}
+
+.checkboxLabel{
+  font-size: small;
+}
+
+
+select {
+  appearance: none; /* Remove default styles */
+  background-color: #f0f4f8;
+  border: 2px solid #004085;
+  border-radius: 8px;
+  padding: 5px 12px;
+  font-size: 16px;
+  color: #004085;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 300px; /* Ensure it doesn't get too wide */
+}
+
+select:hover {
+  border-color: #912338;
+  background-color: #e9eff5;
+}
+
+select:focus {
+  outline: none;
+  border-color: #912338;
+  box-shadow: 0px 0px 8px rgba(145, 35, 56, 0.5);
+}
+
+.selections {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
 }

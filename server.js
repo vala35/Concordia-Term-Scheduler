@@ -69,6 +69,27 @@ app.get('/api/descriptions/:subject/', validateOrigin(),async (req, res) => {
     }
 });
 
+app.get('/api/information/:subject/', validateOrigin(),async (req, res) => {
+    const { subject} = req.params;
+
+    try {
+        const response = await axios.get(
+            `https://opendata.concordia.ca/API/v1/course/catalog/filter/${subject}/*/*`,
+            {
+                auth: {
+                    username: API_USERNAME,
+                    password: API_PASSWORD,
+                },
+            }
+        );
+        res.json(response.data);
+    } catch (error) {
+        console.error('Error fetching course info:', error.message);
+        res.status(500).json({ message: 'Error fetching course info' });
+    }
+});
+
+
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
 });
