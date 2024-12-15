@@ -91,13 +91,14 @@ function App() {
               case "2": return "Fall "+yr;
               case "3": return "Fall-Winter "+ yr;
               case "4": return "Winter "+yr;
+               default: return "---"
           }
   }
 
 
   return (
       <div style={{ padding: '20px' }}>
-          <h1>Concordia Course Scheduler</h1>
+          <h1>Concordia Course Scheduler (UAT)</h1>
           <p>This tool is designed to find Concordia's course offerings for any given term using historical data.
               <br/> Targeted towards Co-op students looking to clarify or reorganize their sequence.
               <br/> Concordia University's OpenData API makes this possible, however, this tool has <b>no direct
