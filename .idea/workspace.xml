@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="fixed mixup between fall and winter courses">
-      <change afterPath="$PROJECT_DIR$/client/build/static/css/main.6443a94f.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/build/static/css/main.6443a94f.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/build/static/js/main.87367cc1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/build/static/js/main.87367cc1.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/build/static/js/main.87367cc1.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/css/main.f4113f5f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/css/main.f4113f5f.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.108bfcb0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.108bfcb0.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.108bfcb0.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="added prereq data, credit data, full course name, campus + bunch of cosmetic improvements" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -473,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734227550900</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="added prereq data, credit data, full course name, campus + bunch of cosmetic improvements">
+      <option name="closed" value="true" />
+      <created>1734246093183</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1734246093183</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,6 +511,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="add README" />
     <MESSAGE value="fixed mixup between fall and winter courses" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed mixup between fall and winter courses" />
+    <MESSAGE value="added prereq data, credit data, full course name, campus + bunch of cosmetic improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="added prereq data, credit data, full course name, campus + bunch of cosmetic improvements" />
   </component>
 </project>

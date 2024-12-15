@@ -201,7 +201,8 @@ function App() {
                         <b>Days:</b> {getDays(course)}
                         <br/>
                         <b>Time:</b> {getTimes(course)}
-
+                        <br/>
+                        <b>Location:</b> {course.locationCode}
                     </li>
 
                 </>)}
