@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="added prereq data, credit data, full course name, campus + bunch of cosmetic improvements" />
+    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="added location to tutorials/labs/seminars">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -464,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734246093183</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="added location to tutorials/labs/seminars">
+      <option name="closed" value="true" />
+      <created>1734246945710</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1734246945710</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,6 +522,7 @@
     <MESSAGE value="add README" />
     <MESSAGE value="fixed mixup between fall and winter courses" />
     <MESSAGE value="added prereq data, credit data, full course name, campus + bunch of cosmetic improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="added prereq data, credit data, full course name, campus + bunch of cosmetic improvements" />
+    <MESSAGE value="added location to tutorials/labs/seminars" />
+    <option name="LAST_COMMIT_MESSAGE" value="added location to tutorials/labs/seminars" />
   </component>
 </project>

@@ -13,7 +13,7 @@ function App() {
     const [prereq, setPrereq] = useState(true);
     const subjectList = ["COMP", "SOEN", "ENCS", "ENGR", "MATH", "MAST", "PHYS", "LING", "ECON", "RELI", "INST", "MANA", "COMM",
         "BIOL", "ACCO", "URBS", "EDUC", "HIST", "ENGL", "POLI", "PSYC", "FINA", "FMST", "ANTH", "SOCI", "PHIL", "JOUR", "CHEM", "AHSC",
-        "GEOG", "EXCI", "LOYC", "MARK", "AERO", "MIAE", "MECH", "INDU", "BTM", "COEN", "ELEC", "BCEE", "BLDG", "CIVI", "STAT"].sort();
+        "GEOG", "EXCI", "LOYC", "MARK", "AERO", "MIAE", "MECH", "INDU", "BTM", "COEN", "ELEC", "BCEE", "BLDG", "CIVI", "STAT", "FRAN"].sort();
     const academicYr = 2024;
     const referenceYr = Number(academicYr.toString().substring(0, 1) + academicYr.toString().substring(2));
     const fetchCourses = async () => {
