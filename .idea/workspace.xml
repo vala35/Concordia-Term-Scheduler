@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="changed to show new 2025-26 calendar">
+    <list default="true" id="36d60bbd-0cff-417b-bd8d-37cd4ab625f0" name="Changes" comment="init for dat">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +109,7 @@
       <workItem from="1738523560808" duration="720000" />
       <workItem from="1740871427063" duration="2553000" />
       <workItem from="1742258022691" duration="627000" />
+      <workItem from="1747608852334" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -493,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740871576749</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="init for dat">
+      <option name="closed" value="true" />
+      <created>1747608977516</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1747608977516</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +528,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="adddthz" />
     <MESSAGE value="adddthzaa" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="add disclaimer and index data" />
@@ -543,6 +552,7 @@
     <MESSAGE value="added location to tutorials/labs/seminars" />
     <MESSAGE value="added FRAN courses" />
     <MESSAGE value="changed to show new 2025-26 calendar" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed to show new 2025-26 calendar" />
+    <MESSAGE value="init for dat" />
+    <option name="LAST_COMMIT_MESSAGE" value="init for dat" />
   </component>
 </project>
