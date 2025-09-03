@@ -192,7 +192,7 @@ function App() {
                         <br/>
                         <b>Location:</b> {course.locationCode}
                         <br/>
-                        <b>Prerequisites:</b> {course.prerequisites.trim()==="" ? "None" : course.prerequisites.trim()}
+                        {/*<b>Prerequisites:</b> {course.prerequisites.trim()=== "" ? "None" : course.prerequisites.trim()}*/}
                     </li>
                 </>) : (<>
                     <li key={course.classNumber} className="subCourse">
