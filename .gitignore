@@ -3,5 +3,6 @@
 /client/package.json
 /client/package-lock.json
 /client/README.md
+/client/build/
 /node_modules/
 .env
