@@ -1,4 +1,6 @@
-# 🎓 Concordia Course Scheduler 🚀
+# Concordia Course Scheduler 
+
+### NOTE: This README has been created with the help of generative AI.
 
 ---
 **DEV**
@@ -7,46 +9,46 @@ A (soon-to-be) sleek web application combining a **Node.js/Express** backend wit
 
 ---
 
-## 🌟 Overview
+## Overview
 Concordia's co-op program often challenges students to create custom course sequences when deviating from the recommended ones. Traditionally, this involves manually organizing a list of courses by term—a process prone to errors and frustration due to limited visibility of course offerings.
 
 **This app changes the game**, offering a streamlined, intuitive way to organize and adjust course sequences. Future iterations aim to expand the app into a comprehensive university schedule management tool.
 
 ---
 
-## ✨ Features
-- **🚀 Streamlined Course Planning**: Simplify the organization and adjustment of course sequences.
-- **📊 Historical Data Insights**: Dive into past course offerings for better term planning.
-- **🎯 Co-op Student Focused**: Tailored for students creating flexible and efficient schedules.
-- **🔗 API-Powered**: Built on Concordia University's OpenData API (no direct affiliation).
+##  Features
+- **Streamlined Course Planning**: Simplify the organization and adjustment of course sequences.
+- **Historical Data Insights**: Dive into past course offerings for better term planning.
+- **Co-op Student Focused**: Tailored for students creating flexible and efficient schedules.
+- **API-Powered**: Built on Concordia University's OpenData API (no direct affiliation).
 
 ---
 
 ## 🌐 The Site
-Check it out: **[conco-term-scheduler.azurewebsites.net](https://conco-term-scheduler.azurewebsites.net/)**
+Check it out at: **[conco-term-scheduler.azurewebsites.net](https://conco-term-scheduler.azurewebsites.net/)**
 
-### 🛠️ Functionality
+### Functionality
 - Effortlessly find Concordia's course offerings for any given term using historical data.
 - Tailored for co-op students needing clarity and reorganization of their sequences.
 
-### ⚠️ Disclaimer
+### Disclaimer
 This tool leverages Concordia University's OpenData API but has no official affiliation with the university. **Use at your own risk.** Courses offered in previous terms may not be available in the same term next year.
 
 ---
 
-## 🔍 Known Issues
+## Known Issues
 - **Mandatory Term Selection**: A term must be selected, but subject selection is optional.
 - **Data Accuracy**: Currently relies on historical data, which may not reflect future availability.
 
 ---
 
-## 🚀 Future Improvements
-- **🎨 Enhanced UI**: A sleek, user-friendly interface with more customization options.
-- **📡 Real-Time Data**: Integration of live data for accurate course offerings.
-- **📅 Feature Expansion**: Grow into a fully-featured university schedule management tool.
+## Future Improvements
+- **Enhanced UI**: A sleek, user-friendly interface with more customization options.
+- **Real-Time Data**: Integration of live data for accurate course offerings.
+- **Feature Expansion**: Grow into a fully-featured university schedule management tool.
 
 ---
 
-## 👨‍💻 Developed by
+## Developed by
 [**Vala Khalilzadeh**](https://ca.linkedin.com/in/vala35/)  
 
