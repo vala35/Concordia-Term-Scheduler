@@ -24,8 +24,9 @@ Concordia's co-op program often challenges students to create custom course sequ
 
 ---
 
-## 🌐 The Site
+## The Site
 Check it out at: **[conco-term-scheduler.azurewebsites.net](https://conco-term-scheduler.azurewebsites.net/)**
+<br>Note: it may take up to 3 minutes for the website to load initially (the server boots up based on demand)
 
 ### Functionality
 - Effortlessly find Concordia's course offerings for any given term using historical data.
