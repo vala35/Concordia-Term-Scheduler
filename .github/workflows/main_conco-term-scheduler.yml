@@ -30,6 +30,8 @@ jobs:
           npm install
           npm run build
           rm -rf client/node_modules
+        env:
+          CI: false
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -66,3 +68,4 @@ jobs:
           package: .
 
           
+
