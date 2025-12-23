@@ -29,8 +29,8 @@ jobs:
 
       - name: build client
         run: |
-          cd ci
-          npm install
+          cd client
+          npm ci
           npm run build
           rm -rf node_modules
 
@@ -69,5 +69,6 @@ jobs:
           package: .
 
           
+
 
 
